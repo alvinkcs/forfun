@@ -5,46 +5,45 @@
     <meta name="description" content="This is for study propose">
     <title>Alvin's Website</title>
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="favicon_io/favicon.ico">
   </head>
-
-<style>
-  body {
-    background-color: #E0ECE6;
-    text-align: center;
-  }
-  h1 {
-    padding-top: 20px;
-  }
-  video {
-    visibility: hidden;
-  }
-</style>
 
   <body>
     <h1>Alvin's Website</h1>
     <p><b><i>TYPE-MOON</i></b></p>
     <hr>
-    <p style="color: red;">Enter Your private account</p>
+    <p class="id-input">Enter the correct answer</p>
     <form>
-      <label>Username: </label>
-      <input type="text" /><br />
-      <label>Password: </label>
-      <input type="password" />
-      <input type="submit" />
+      <table>
+          <tr>
+            <td><label>Question: </label></td>
+            <td><input class="question" type="text" value="ramanujan's value"/></td>
+          </tr>
+          <tr>
+            <td><label>Answer: </label></td>
+            <td><input class="answer" type="password" /></td>
+            <td><button type="button"><em>submit</em></button></td>
+          </tr>
+      </table>
     </form>
     <hr>
-    <h3><a href="https://lihkg.com/category/1" target="_blank">Go to LIHKG</a></h3>
-    <h3><a href="https://www.google.com" target="_blank">Google's Homepage</a></h3>
-    <h3><a href="https://twitter.com/home" target="_blank">Go to Twitter</a></h3>
     <h3><a href="index2.html" target="_blank">Go to my javascript console</a></h3>
     <img src="https://cdn.hk01.com/di/media/images/dw/20200504/333968698857623552.png/YREPsbO09sB6tdBKET_gwjKRj0SAESMjXtfV9V7X1fU?v=w960" alt="fgo 5th" />
     <hr>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/ekP7VLeXnqY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <video height="300" controls>
+    <video class="hidden" height="300" controls>
       <source src="htest/彼女は頭のネジが抜けてる_18_3.mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
+    <footer class="bottom-container">
+      <a class="footer-link" href="https://lihkg.com/category/1" target="_blank">LIHKG</a>
+      <a class="footer-link" href="https://www.google.com" target="_blank">Google</a>
+      <a class="footer-link" href="https://twitter.com/home" target="_blank">Twitter</a>
+      <a class="footer-link" href="udemy.html" target="_blank">About Me</a>
+      <p>2020 © Made by Konh.</p>
+    </footer>
 
-
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="index.js" charset="utf-8"></script>
+  </body>
 </html>
