@@ -79,3 +79,12 @@ a:hover {
 .hidden {
   visibility: hidden;
 }
+
+.findMe {
+  display: inline-block;
+  position: relative;
+  left: 550px;
+  margin: 0;
+  text-align: right;
+  opacity: 0;
+}
